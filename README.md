@@ -1,6 +1,18 @@
 # AngularHALRest
+WHY Angular?
+No need to explain this.
+
+
+Why HAL APis?
+HAL APis are next generation of rest maturity model (type 4) , It allows the auto documentation , self discovery , dynamic apis (fetch only what you need, not everythingh) , adoption of type4 from type 2 to type 3 is very high and alomost every modern APIs are in HAL .
+
+Why ORM in front end Apps?
+ORM provied a design first approach , which make sure the developer create models , define relations among them , encapsulate the CRUDs in Unit of work / repositories and then use them in data services , this way the data services will be cleaner and will not have necessary boilerplate code , It give the front end app a strcuture for unit testing.
+
+WHY AngularHALRest?
 
 AngularHALRest is front end ORM for Angular apps to work with HAL APIs.
+If you are using Angular and HAL both and looking for an ORM then AngularHALRest is the right library.
 It Provide a simple mechanism to handle unit of work using HAL APIs.
 Since HAL APIs provide autoDiscovery and links to all related resources (children), AngularHALRest helps the consumers to build entity models with relations and allows CRUDS with full heirarchy(means CRUD in parent will cascade the CRUD to children) . This comes in handy when writing high data driven front end application .
 
