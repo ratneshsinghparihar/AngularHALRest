@@ -39,3 +39,5 @@ from a HAL url if there are hal url in _links , it will go and fetch them automa
 
 5)support for embedded objects
 HAL apis provide _embedded objects so that frontend don't need to make muliple calls , when fetching relational model AngularHALRest make sure to check into _embedded objects and don't make api calls if found in _embedded objects
+
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1457/badge)](https://bestpractices.coreinfrastructure.org/projects/1457)
